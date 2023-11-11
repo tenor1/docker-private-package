@@ -1,0 +1,22 @@
+{
+    "name": "yurb/docker-private-package",
+    "description": "An example private composer package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tenor1",
+            "email": "tenor@ukr.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yurb\\DockerPrivatePackage\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
