@@ -1,5 +1,5 @@
 {
-    "name": "yurb/docker-private-package",
+    "name": "tenor1/docker-private-package",
     "description": "An example private composer package",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Yurb\\DockerPrivatePackage\\": "src/"
+            "tenor1\\DockerPrivatePackage\\": "src/"
         }
     },
     "require": {},
